@@ -1,4 +1,4 @@
-package unitTesting;
+package ru.dankras.collections;
 
 /**
  * @author Manjunath-PC

@@ -1,4 +1,4 @@
-package unitTesting;
+package ru.dankras.collections;
 
 public class MyArrayList<E> implements MyList<E> {
     private static final int DEFAULT_CAPACITY = 10;

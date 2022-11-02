@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>github-example-package</artifactId>
+    <groupId>com.github.dankras</groupId>
+    <artifactId>github-dankras-package</artifactId>
     <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -16,9 +16,9 @@
     </distributionManagement>
     <developers>
         <developer>
-            <name>Manjunath Prabhakar</name>
-            <email>manjunath189@gmail.com</email>
-            <organization>com.github.manjunathprabhakar</organization>
+            <name>Krasnykh Dmitriy</name>
+            <email>krasnykhda@gmail.com</email>
+            <organization>com.github.krasnykhda</organization>
             <organizationUrl>https://github.com/studentsl1986/testtest</organizationUrl>
         </developer>
     </developers>
@@ -28,9 +28,31 @@
         <developerConnection>scm:git:https://github.com/studentsl1986/testtest.git
         </developerConnection>
         <url>https://github.com/studentsl1986/testtest</url>
-        <tag>github-example-package</tag>
+        <tag>org.example</tag>
     </scm>
+    <dependencies>
+        <!-- Это зависимость spring-context,
+             содержит базовую функциональность IoC -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.8.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.22.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>4.4.0</version>
+            <scope>test</scope>
+        </dependency>
 
+    </dependencies>
     <build>
         <pluginManagement>
             <plugins>

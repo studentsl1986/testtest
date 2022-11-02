@@ -1,4 +1,4 @@
-package unitTesting;
+package ru.dankras.collections;
 
 public class MyLinkedList<E> implements MyList, MyQueue {
     private Node<E> head;

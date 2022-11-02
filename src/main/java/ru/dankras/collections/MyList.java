@@ -1,4 +1,4 @@
-package unitTesting;
+package ru.dankras.collections;
 
 public interface MyList<E> {
     void add(E object);

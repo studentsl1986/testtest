@@ -1,4 +1,4 @@
-package unitTesting;
+package ru.dankras.collections;
 
 public class Node<E> {
     Node<E> next;

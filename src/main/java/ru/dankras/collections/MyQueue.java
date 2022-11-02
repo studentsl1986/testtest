@@ -1,4 +1,4 @@
-package unitTesting;
+package ru.dankras.collections;
 
 public interface MyQueue<E> {
     void put(E object);
